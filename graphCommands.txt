@@ -1,0 +1,11 @@
+Open terminal type 'gnuplot'
+
+
+>set title 'linear Search'
+>set xrange [10:100]
+>set yrange [10:100]
+>set xlabel 'input size(n)'
+>set ylabel 'operation count'
+>set style data line
+>plot 'bestls.txt' title 'best case'
+
